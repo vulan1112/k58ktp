@@ -42,7 +42,7 @@ bước đầu tạo mới database :
 
 ![image](https://github.com/user-attachments/assets/cdb613dc-aa6a-4541-b2d4-bfa7722318cc)
 
-code
+### CODE
 ...
 CREATE DATABASE QLSV;
 GO
@@ -154,6 +154,10 @@ GO
 **MÔ TẢ ĐỂ TẠO KHÓA CHÍNH**
 
 ![image](https://github.com/user-attachments/assets/cc613a54-d330-4a47-b318-d14c1817910b)
+
+**KHÓA PHỤ**
+
+![image](https://github.com/user-attachments/assets/a0e5739f-4964-4af6-9ab2-5d2d1f7ddeb3)
 
 **TẠO KIỂM TRA BẢNG**
 
