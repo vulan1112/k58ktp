@@ -145,6 +145,27 @@ CREATE DATABASE QLSV;
 GO
 USE QLSV;
 GO
+![image](https://github.com/user-attachments/assets/15cf162e-e6b4-412e-9e2f-83c128c331f6)
+
+**CÁCH TẠO BẢNG**
+
+![image](https://github.com/user-attachments/assets/4f0351b4-2a55-4fed-91d9-1f44971cb2c0)
+
+**MÔ TẢ ĐỂ TẠO KHÓA CHÍNH**
+
+![image](https://github.com/user-attachments/assets/cc613a54-d330-4a47-b318-d14c1817910b)
+
+**TẠO KIỂM TRA BẢNG**
+
+![image](https://github.com/user-attachments/assets/dce229f2-4002-499e-810b-d7850486e6d1)
+
+![image](https://github.com/user-attachments/assets/2fd8d8b9-5932-4d2f-853d-2f71c8a5dc25)
+
+**CÁCH HIỆN MÃ RA NGOÀI MÀN HÌNH**
+
+![image](https://github.com/user-attachments/assets/6966c115-d6cd-4b3b-96e8-495411699723)
+
+![image](https://github.com/user-attachments/assets/2438dfe2-1133-469b-bc2b-ddbe4e1b5ff7)
 
 CREATE TABLE SinhVien (
     MaSV INT PRIMARY KEY,
@@ -157,6 +178,8 @@ GO
 
 ![image](https://github.com/user-attachments/assets/ef25926f-2d37-4a8b-a46e-0dc6c55a244d)
 
+![image](https://github.com/user-attachments/assets/71e6247d-d81d-4208-a09e-3aed391f3a2c)
+
 CREATE TABLE Lop (
     MaLop INT PRIMARY KEY,
     TenLop VARCHAR(100)
@@ -167,6 +190,8 @@ GO
 
 ![image](https://github.com/user-attachments/assets/7569ff0b-0fe2-4119-84ce-492c194732ab)
 
+![image](https://github.com/user-attachments/assets/411c7dc9-2184-4ce8-9242-cf4682db2fd0)
+
 CREATE TABLE Khoa (
     MaKhoa INT PRIMARY KEY,
     TenKhoa VARCHAR(100)
@@ -176,6 +201,8 @@ GO
 ![image](https://github.com/user-attachments/assets/6eb2baef-f174-4dd4-9358-13beff3f933f)
 
 ![image](https://github.com/user-attachments/assets/72e70eff-f1f9-40df-aeb9-5714ee91dc19)
+
+![image](https://github.com/user-attachments/assets/fc2e2b08-0399-4850-beb5-fab85d55cd38)
 
 CREATE TABLE MonHoc (
     MaMon INT PRIMARY KEY,
@@ -188,6 +215,8 @@ GO
 
 ![image](https://github.com/user-attachments/assets/193660c4-e1e8-4b3c-b95c-338e44720ec6)
 
+![image](https://github.com/user-attachments/assets/c35e4ef7-1497-42a1-87c9-08720088816f)
+
 CREATE TABLE BoMon (
     MaBM INT PRIMARY KEY,
     TenBM VARCHAR(100),
@@ -199,6 +228,8 @@ GO
 ![image](https://github.com/user-attachments/assets/bc326dee-caae-465a-9740-e08ae85a79cf)
 
 ![image](https://github.com/user-attachments/assets/e6783b7a-9cb6-4481-9bc2-8198c8cb9ddc)
+
+![image](https://github.com/user-attachments/assets/9db6fd33-2931-4f5b-952b-497c08e4eb87)
 
 CREATE TABLE LopSV (
     MaLop INT,
@@ -214,6 +245,8 @@ GO
 
 ![image](https://github.com/user-attachments/assets/01469baa-1f56-4033-8fbf-f7da74cc1047)
 
+![image](https://github.com/user-attachments/assets/e6f7c51d-a052-44a7-86a6-827df78cab12)
+
 CREATE TABLE GiaoVien (
     MaGV INT PRIMARY KEY,
     HoTen VARCHAR(100),
@@ -226,6 +259,8 @@ GO
 ![image](https://github.com/user-attachments/assets/f56283a6-2a88-4ed9-b146-61cf269eb55b)
 
 ![image](https://github.com/user-attachments/assets/5f888719-7462-46fd-b714-8652b94ff063)
+
+![image](https://github.com/user-attachments/assets/a3705548-43c1-46d1-aa94-0c8d64c1cd8b)
 
 CREATE TABLE GVCN (
     MaLop INT,
@@ -241,6 +276,8 @@ GO
 
 ![image](https://github.com/user-attachments/assets/40727bfb-dd09-4749-b264-7124133d9bd9)
 
+![image](https://github.com/user-attachments/assets/4c55562b-a34c-418d-a285-a556916922cb)
+
 CREATE TABLE LopHP (
     MaLopHP INT PRIMARY KEY,
     TenLopHP VARCHAR(100),
@@ -255,6 +292,8 @@ GO
 ![image](https://github.com/user-attachments/assets/b3a8acfc-0b1d-4f20-90d9-e4925f30e638)
 
 ![image](https://github.com/user-attachments/assets/387f1e12-6315-4f3d-976f-c4ca1495bf1c)
+
+![image](https://github.com/user-attachments/assets/c7ce72b4-afe4-48cb-8655-053e8d949822)
 
 CREATE TABLE DKMH (
     MaLopHP INT,
@@ -272,6 +311,8 @@ GO
 ![image](https://github.com/user-attachments/assets/f54f8cff-f000-4d8f-9f52-a6ea8eaed3ff)
 
 ![image](https://github.com/user-attachments/assets/07a515dd-9a0f-4cd8-b65a-32bde7ba12d8)
+
+![image](https://github.com/user-attachments/assets/d1919364-87fc-41dd-a8b2-3fd3abddf483)
 
 ....
 
