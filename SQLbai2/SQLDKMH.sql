@@ -1,0 +1,42 @@
+USE [QLSV]
+GO
+
+/****** Object:  Table [dbo].[DKMH]    Script Date: 3/25/2025 2:58:05 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[DKMH](
+	[MaLopHP] [int] NOT NULL,
+	[MaSV] [int] NOT NULL,
+	[DiemTP] [float] NULL,
+	[DiemThi] [float] NULL,
+	[PhanTramThi] [float] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[MaLopHP] ASC,
+	[MaSV] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[DKMH]  WITH CHECK ADD FOREIGN KEY([MaLopHP])
+REFERENCES [dbo].[LopHP] ([MaLopHP])
+GO
+
+ALTER TABLE [dbo].[DKMH]  WITH CHECK ADD FOREIGN KEY([MaSV])
+REFERENCES [dbo].[SinhVien] ([MaSV])
+GO
+
+ALTER TABLE [dbo].[DKMH]  WITH CHECK ADD CHECK  (([DiemThi]>=(0) AND [DiemThi]<=(10)))
+GO
+
+ALTER TABLE [dbo].[DKMH]  WITH CHECK ADD CHECK  (([DiemTP]>=(0) AND [DiemTP]<=(10)))
+GO
+
+ALTER TABLE [dbo].[DKMH]  WITH CHECK ADD CHECK  (([PhanTramThi]>=(0) AND [PhanTramThi]<=(100)))
+GO
+
+

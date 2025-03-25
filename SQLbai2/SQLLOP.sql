@@ -1,0 +1,5 @@
+CREATE TABLE Lop (
+    MaLop INT PRIMARY KEY,
+    TenLop VARCHAR(100)
+);
+GO

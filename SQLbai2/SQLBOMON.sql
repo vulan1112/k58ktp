@@ -1,0 +1,7 @@
+CREATE TABLE BoMon (
+    MaBM INT PRIMARY KEY,
+    TenBM VARCHAR(100),
+    MaKhoa INT,
+    FOREIGN KEY (MaKhoa) REFERENCES Khoa(MaKhoa)
+);
+GO

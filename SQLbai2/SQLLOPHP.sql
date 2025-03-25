@@ -1,0 +1,10 @@
+CREATE TABLE LopHP (
+    MaLopHP INT PRIMARY KEY,
+    TenLopHP VARCHAR(100),
+    HK VARCHAR(10),
+    MaMon INT,
+    MaGV INT,
+    FOREIGN KEY (MaMon) REFERENCES MonHoc(MaMon),
+    FOREIGN KEY (MaGV) REFERENCES GiaoVien(MaGV)
+);
+GO
