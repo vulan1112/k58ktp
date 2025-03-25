@@ -157,7 +157,7 @@ GO
 
 **KHÓA PHỤ**
 
-![image](https://github.com/user-attachments/assets/a0e5739f-4964-4af6-9ab2-5d2d1f7ddeb3)
+![image](https://github.com/user-attachments/assets/58743d05-870a-43a3-bda2-ea51361697cf)
 
 **TẠO KIỂM TRA BẢNG**
 
@@ -282,6 +282,8 @@ GO
 
 ![image](https://github.com/user-attachments/assets/4c55562b-a34c-418d-a285-a556916922cb)
 
+![image](https://github.com/user-attachments/assets/9dab3384-c37d-44a5-8e9e-703995326d44)
+
 CREATE TABLE LopHP (
     MaLopHP INT PRIMARY KEY,
     TenLopHP VARCHAR(100),
@@ -327,7 +329,8 @@ GO
 
 ![image](https://github.com/user-attachments/assets/932e7c97-8099-4704-abfc-97eef9b603a3)
 
-![image](https://github.com/user-attachments/assets/5ea812b8-6259-4975-84b7-e42d516d210c)
+![image](https://github.com/user-attachments/assets/db96641a-c88c-44f4-a010-0f1aac91de96)
+
 
 
 
