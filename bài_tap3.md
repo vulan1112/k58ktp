@@ -81,6 +81,7 @@
 
 **ĐÂY LÀ ĐOẠN TRUY VẤN CODE THÀNH CÔNG**
 
+![image](https://github.com/user-attachments/assets/ea43d5e4-287e-4b92-b9a9-4c10e1d7c7be)
 
 **XUẤT FILE DỮ LIỆU CỦA DB (bai_tap_3_schema.sql)**
 
